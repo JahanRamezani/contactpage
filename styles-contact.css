@@ -1,0 +1,67 @@
+@import url("https://use.typekit.net/fgi5ufz.css");
+
+h1 {
+    font-family: 'macula-shaded', sans-serif;
+    font-size: 2em;
+    margin: 0px auto 10px auto;
+         color: #000000;
+    }
+h2 {
+    font-family: "joly-display", sans-serif;
+    font-size: 1.5em;
+    font-style: normal;
+    line-height: 1.4;
+         color: #000000;
+    padding: 0px 0px;
+    margin: 0px auto 25px auto;
+    }
+p {
+    font-family: "joly-display", sans-serif;
+    font-size: 1.2em;
+    line-height: 1.6;
+         color: #000000;
+    }
+html, body {
+        height: 100%;
+        width: 100%;
+        padding: 2%;
+        margin: 0;
+        background-image: url("images/background.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        }
+.center {
+    width: 600px;
+    padding: 2%;
+    margin: 100px auto;
+    text-align: center;
+    border: 4px dashed white;
+    background: #c1a45f;
+}
+nav{
+    font-family: "joly-display", sans-serif;
+    font-size: 1.2em;
+    width: 400px;
+    margin: 0 auto;
+    border: dashed rgb(255, 255, 255);
+    border-width: 3px 0;
+    text-align: center;
+    margin-top: 2em;
+    }
+    nav li{
+    display: inline;
+    }
+    nav a{
+    display: inline-block;
+    padding: 10px;
+    }
+    a{
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    }
+    a:hover{
+    color: black;
+    background: rgb(255, 0, 43);
