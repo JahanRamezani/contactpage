@@ -1,5 +1,60 @@
 @import url("https://use.typekit.net/fgi5ufz.css");
 
+::-webkit-scrollbar {
+    display: none;
+}
+* {
+    box-sizing: border-box;
+  }
+
+  
+.header {
+    font-size: 40px;
+    text-align: left;
+    background: white;
+    border: 5px solid white;
+  }
+  
+.leftcolumn {
+    float: left;
+    width: 75%;
+  }
+  
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+  
+.img {
+    background-color: #e79b4e;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .aboutimg {
+    background-color: #e79b4e;
+    width: 100%;
+    padding: 5px;
+  }
+  
+.card {
+    background-color: #ffad5a;
+    padding: 20px;
+    margin-top: 20px;
+    border: 5px dotted white;
+  }
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+      width: 100%;
+      padding: 0;
+    }
+  }
 h1 {
     font-family: 'macula-shaded', sans-serif;
     font-size: 2em;
@@ -24,7 +79,10 @@ p {
 html, body {
         height: 100%;
         width: 100%;
-        padding: 2%;
+        padding-left: 10%;
+        Padding-right: 10%;
+        Padding-top: 2%;
+        Padding-Bottom: 10%;
         margin: 0;
         background-image: url("images/background.jpg");
         background-size: cover;
@@ -33,11 +91,11 @@ html, body {
         background-position: center;
         }
 .center {
-    width: 600px;
+    width: 1000px;
     padding: 2%;
     margin: 100px auto;
     text-align: center;
-    border: 4px dashed white;
+    border: 10px dotted white;
     background: #c1a45f;
 }
 nav{
@@ -45,7 +103,7 @@ nav{
     font-size: 1.2em;
     width: 400px;
     margin: 0 auto;
-    border: dashed rgb(255, 255, 255);
+    border: double rgb(255, 255, 255);
     border-width: 3px 0;
     text-align: center;
     margin-top: 2em;
@@ -64,4 +122,5 @@ nav{
     }
     a:hover{
     color: black;
-    background: rgb(255, 0, 43);
+    background: rgb(171, 123, 255);
+    }
